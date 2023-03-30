@@ -1,19 +1,27 @@
 #include <iostream>
-using namespace std;
+using namespace std; 
 
-int main() {
-    
-    double liczba1, liczba2; //wypisze wynik jako liczbe zmiennoprzecinkowa
-    cout<<"Dziele dwie liczby\n";
-    
-    cout<<"Podaj pierwsza liczbe:\n";
-    cin>>liczba1;
+int main() { 
+//stosujemy znaczące nazwy zmiennych    
+// typ zmiennej określa jak traktuje ją kompilator przykład:
+string napis1 ="3";
+string napis2 ="3";
+string suma= napis1+napis2 ; //konkatenacja stringów
+cout<<suma<<endl;
 
-    cout<<"Podaj druga liczbe:\n";
-    cin>>liczba2;
+int liczba1 =3;
+int liczba2=3;
+int sumaLiczb= liczba1+liczba2 ; //dodawanie liczb
+cout<<sumaLiczb<<endl;
 
-    cout<<liczba1 <<"/" <<liczba2 <<" = " <<liczba1/liczba2;
+//typ zmiennej określa rozmiar pamięci który na jej obsługę przeznaczy kompilator
+cout<<sizeof(int)<<endl;
+cout<<sizeof(char)<<endl;
+cout<<sizeof(bool)<<endl;
+cout<<sizeof(float)<<endl;
+cout<<sizeof(double)<<endl;
 
+//deklaracja zmiennej to określenie nazwy zmiennej i typu przechowywanej wartości
 
 return 0;
 }
