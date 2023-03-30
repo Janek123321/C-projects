@@ -1,0 +1,11 @@
+złożoność obliczeniowa to worek na 2 slowa - zlozonosc czasowa i zlozonosc pamieciowa. Zlozonosc pamieciowa okresla ilosc pamieci potrzebnej do
+realizacji programu. Zlozonosc czasowa to funkcja ktora okresla liczbe krokow w zaleznosci od wielkosci zbioru danych poczatkowych. 
+
+(n-1)n
+   2
+
+
+
+
+
+
