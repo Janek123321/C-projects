@@ -6,7 +6,7 @@ int main()
     // inicjalizacja zmiennych.
     int liczba = 'a'; // C-inicjalizacja vel inicjalizacja kopiującą  (ang. C-like initialization) (ang. copy initialization)
     // int liczba ('a'); // inicjalizacja bezpośrednia (ang. direct initialization)
-    // // poniżej inicjalizacja jednolita (ang. uniform initialization) lub inicjalizacja klamrowa (ang. brace initialization)
+    // poniżej inicjalizacja jednolita (ang. uniform initialization) lub inicjalizacja klamrowa (ang. brace initialization)
     // int liczba {'a'}; //inicjalizacja jednolita bezpośrednia (ang. direct uniform initialization).
     // int liczba = {'a'}; //icjalizacja jednolira kopiująca (ang. copy uniform initialization).
     int liczba1{}; // inicjalizacja jednolita  (ang. zero initialization)
