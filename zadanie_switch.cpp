@@ -55,9 +55,36 @@ int main()
         break;
 
     default:
-        cout<<"Nie masz lekcji";
+        cout << "Nie masz lekcji";
         break;
     }
+
+    //   SWITCH BEZ BREAK
+
+    //     switch (koniec)
+    // {
+    // case 1:
+    //     cout << "do konca zostaly ci 6 lekcje";
+
+    // case 2:
+    //     cout << "do konca zostaly ci 5 lekcje";
+
+    // case 3:
+    //     cout << "do konca zostaly ci 4 lekcje";
+
+    // case 4:
+    //     cout << "do konca zostaly ci 3 lekcje";
+
+    // case 5:
+    //     cout << "do konca zostaly ci 2 lekcje";
+
+    // case 6:
+    //     cout << "do konca zostaly ci 1 lekcje";
+    //     break;
+    // default:
+    //     cout<<"Nie masz lekcji";
+    //     break;
+    // }
 
     return 0;
 }

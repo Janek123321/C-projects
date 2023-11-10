@@ -5,17 +5,17 @@ int main()
 {
 
     int wiek;
-    cout<<"Wpisz ile masz lat a powiem Ci czy jestes stary"<<endl;
-    cin>>wiek;
+    cout << "Wpisz ile masz lat a powiem Ci czy jestes stary" << endl;
+    cin >> wiek;
 
-    if(wiek<50) 
-    cout<<"Jestes mlody";
+    if (wiek < 50)
+        cout << "Jestes mlody";
 
-    else if(wiek==50)
-    cout<<"Zaraz bedziesz stary";
+    else if (wiek == 50)
+        cout << "Zaraz bedziesz stary";
 
-    else 
-    cout<<"Jestes stary";
+    else
+        cout << "Jestes stary";
 
-return 0;
+    return 0;
 }

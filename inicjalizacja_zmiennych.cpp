@@ -11,27 +11,27 @@ int main()
     // int liczba = {'a'}; //icjalizacja jednolira kopiująca (ang. copy uniform initialization).
     int liczba1{}; // inicjalizacja jednolita  (ang. zero initialization)
     // cout << liczba1;
-    //Deklaracja zmiennej z dedukcją typu:
-    //zmienna3 typu double
+    // Deklaracja zmiennej z dedukcją typu:
+    // zmienna3 typu double
     int zmienna1{1};
     decltype(zmienna1) zmienna2;
     zmienna2 = 2;
     decltype(zmienna2 + 1.1) zmienna3;
     zmienna3 = 3.1;
-    cout <<zmienna3<<endl;
-    cout<<sizeof(zmienna3);
-    //zmienna3 typu int
-    // int zmienna1{1};
-    // decltype(zmienna1) zmienna2;
-    // zmienna2 = 2;
-    // decltype(zmienna2 + 1) zmienna3;
-    // zmienna3 = 3.1;
-    // cout <<zmienna3<<endl;
-    // cout<<sizeof(zmienna3);
-//slowo kluczowe auto robi to samo co powyzej:
-// int zmienna1 = 1;
-// auto zmienna2 = zmienna1 + 1;
-// auto zmienna3 (zmienna2 + 1);
-// auto zmienna4 {zmienna3 + 1};
+    cout << zmienna3 << endl;
+    cout << sizeof(zmienna3);
+    // zmienna3 typu int
+    //  int zmienna1{1};
+    //  decltype(zmienna1) zmienna2;
+    //  zmienna2 = 2;
+    //  decltype(zmienna2 + 1) zmienna3;
+    //  zmienna3 = 3.1;
+    //  cout <<zmienna3<<endl;
+    //  cout<<sizeof(zmienna3);
+    // slowo kluczowe auto robi to samo co powyzej:
+    //  int zmienna1 = 1;
+    //  auto zmienna2 = zmienna1 + 1;
+    //  auto zmienna3 (zmienna2 + 1);
+    //  auto zmienna4 {zmienna3 + 1};
     return 0;
 }
