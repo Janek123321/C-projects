@@ -75,7 +75,6 @@ oceny2.laboratorium = 3.0;
 oceny2.seminarium = 4.0;
 cout << "Średnia ocen semestralnych: " << oceny2.srednia() << endl;
 return 0;
-<<<<<<< HEAD
 }
 
 // #include <iostream>
@@ -131,6 +130,4 @@ return 0;
 //     auto2.display();
 //     return 0;
 // }
-=======
 }
->>>>>>> 38e48bf9cbd46b985bfed57c221c736dcb4dbf22
